@@ -1,0 +1,57 @@
+/* 重置默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft YaHei", sans-serif; /* 微软雅黑字体 */
+    background: #ffe6e6; /* 粉红背景 */
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #ff4444;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dog-img {
+    width: 150px; /* 控制图片宽度 */
+    display: block;
+    margin: 0 auto; /* 居中 */
+    animation: bounce 2s infinite; /* 添加弹跳动画 */
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 卡片阴影 */
+}
+
+.btn {
+    background: #ff3366;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+.share-tip {
+    color: #666;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* 定义弹跳动画 */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
